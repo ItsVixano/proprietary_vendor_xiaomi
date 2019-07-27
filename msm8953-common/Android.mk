@@ -14,6 +14,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter daisy sakura,$(TARGET_DEVICE)),)
+ifneq ($(filter daisy sakura ysl,$(TARGET_DEVICE)),)
 
 endif
